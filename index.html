@@ -3,20 +3,38 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>我的github主页</title>
-    <script src="js/jquery-3.1.1.js"></script>
-    <script type="text/javascript">
-        $(function(){
-            alert("welcome");
-        })
-        function a(){
-            alert("点击事件测试");
-        }
-    </script>
+    <script type="text/javascript" src="js/jquery-3.1.1.js"></script>
 	<link rel="shortcut icon" href="image/favicon.ico">
+    <style type="text/css">
+        html body{
+            width: 100%;
+            /*overflow: hidden;*/
+            margin: 0px;
+            padding: 0px;
+        }
+        .back{
+            margin: auto;
+            padding-top: 1px;
+            width: 100%;
+            height: 750px;
+            background: url(image/geometric.jpg);
+        }
+        .colorred{
+            color: red;
+        }
+    </style>
 </head>
 <body>
-<p>welcome to my github</p>
-<button onclick="a()">点击</button>
-<a href="html/blog.html">连接</a>
+
+<div class="back">
+    <p class="colorred">welcome to my github</p>
+</div>
+
 </body>
+<script type="text/javascript">
+
+    function a(){
+        alert("点击事件测试");
+    }
+</script>
 </html>
