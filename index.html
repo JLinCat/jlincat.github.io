@@ -6,28 +6,40 @@
     <script type="text/javascript" src="js/jquery-3.1.1.js"></script>
 	<link rel="shortcut icon" href="image/favicon.ico">
     <style type="text/css">
-        html body{
+        html,body{
             width: 100%;
+            height: 100%;
             /*overflow: hidden;*/
             margin: 0px;
             padding: 0px;
+
+
         }
         .back{
+            overflow: hidden;
             margin: auto;
-            padding-top: 1px;
+            padding:0px;
             width: 100%;
-            height: 750px;
-            background: url(image/geometric.jpg);
+            height: 100%;
+            /*background: url(image/geometric.jpg);*/
+            background-size: cover;
+            background-image: url(image/geometric.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
         }
         .colorred{
             color: red;
+        }
+        h1{
+            color: floralwhite;
+            text-align: center;
         }
     </style>
 </head>
 <body>
 
 <div class="back">
-    <p class="colorred">welcome to my github</p>
+    <h1>一个文艺的、优雅的、菜鸟coder</h1>
 </div>
 
 </body>
